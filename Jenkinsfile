@@ -4,7 +4,8 @@ pipeline{
 		stage("Run code"){
 			steps {
 					echo "the branch: mybranch"
-			}		echo "my nme is eldad"
+					echo "My name is eldad"
+			}		
 		}
 	}
 }
